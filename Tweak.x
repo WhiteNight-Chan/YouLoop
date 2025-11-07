@@ -148,7 +148,7 @@ static UIImage *getYouLoopImage(NSString *imageSize) {
         [playerViewController didPressYouLoop];
     }
     // Update button color
-    [self.overlayButtons[TweakKey] setImage:getYouLoopImage(@"3") forState:0];
+    [(YTQTMButton *)self.overlayButtons[TweakKey] setImage:getYouLoopImage(@"3") forState:0];
 }
 
 %end
@@ -176,7 +176,7 @@ static UIImage *getYouLoopImage(NSString *imageSize) {
         [parentViewController didPressYouLoop];
     }
     // Update button color
-    [self.overlayButtons[TweakKey] setImage:getYouLoopImage(@"3") forState:0];
+    [(YTQTMButton *)self.overlayButtons[TweakKey] setImage:getYouLoopImage(@"3") forState:0];
 }
 
 %end
